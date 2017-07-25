@@ -11,8 +11,6 @@ spl_autoload_register(function ($className) {
 
 $conf = include 'conf.php';
 
-session_start();
-
 $mysqli = new mysqli($conf['mysql_host'], $conf['mysql_user'], $conf['mysql_pswd'], $conf['mysql_db']);
 $mysqli->query("set names utf8");
 
