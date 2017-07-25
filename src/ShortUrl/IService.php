@@ -7,7 +7,7 @@ interface IService {
 	/**
 	 * @param string $url
 	 *
-	 * @return string
+	 * @return null|string
 	 * @throws \Exception
 	 */
 	public function generateToken($url);
@@ -15,7 +15,7 @@ interface IService {
 	/**
 	 * @param string $token
 	 *
-	 * @return string
+	 * @return null|string
 	 * @throws \Exception
 	 */
 	public function getUrl($token);

@@ -61,7 +61,7 @@ class Service extends AbstractService implements IService
 	/**
 	 * @param string $token
 	 *
-	 * @return null
+	 * @return null|string
 	 * @throws InvalidTokenException
 	 */
 	public function getUrl($token) {
